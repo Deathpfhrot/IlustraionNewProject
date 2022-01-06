@@ -231,22 +231,25 @@ footer p:nth-of-type(3){
     font-size: 1rem;
     color: gray;
 }
-
+footer li{
+    padding: 1%;
+}
 footer i{
     font-size: 35px;
     padding: 10px;
 }
 
-footer i:nth-of-type(1){
+
+footer a:nth-of-type(1) .fa-facebook-square{
     color: #3b5998;
 }
-footer i:nth-of-type(2){
+footer a:nth-of-type(2) .fa-instagram{
     color: #fcaf45;
 }
-footer i:nth-of-type(3){
+footer a:nth-of-type(3) .fa-twitter{
     color: #55acee;
 }
-footer i:nth-of-type(4){
+footer a:nth-of-type(4) .fa-youtube{
     color: #c4302b;
 }
 
