@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-/*
 
-Farbe: #202020, #24bff2, #fff, #F5FBFE.
-Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b*/
+
+
+
 /*--------------------Global-----------------*/
 *{
     margin: 0;
@@ -48,9 +48,10 @@ header nav a{
 }
 
 header section{
-    background: url(../img/Lev3_3_Project_css-einführung_Illustration/illustration1.gif) no-repeat;
-    background-position: right;
-    background-size: contain;
+    background: url(../img/Lev3_3_Project_css-einführung_Illustration/illustration1.gif) no-repeat right/contain;
+    /* no-repeat right/contain;*/
+    /* background-position: right;
+    background-size: contain; */
     height: 95vh;
 
 }
@@ -247,4 +248,8 @@ footer i:nth-of-type(3){
 }
 footer i:nth-of-type(4){
     color: #c4302b;
+}
+
+footer a {
+    color: gray;
 }
